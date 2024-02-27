@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+
+*
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size:28px;
+}
+
+/* header */
+
+.header {
+    background-color: rgb(5, 44, 45);
+    height: 97px;
+    line-height: 97px;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.brand {
+    float: left;
+}
+
+.brand img {
+    width: 76px;
+    vertical-align: middle;
+}
+
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    margin-right: 84px;
+    color: chartreuse;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* clearfix */
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+
+/* section */
+
+.section {
+    background-color: rgb(12, 36, 36);
+    padding-top: 140px;
+    padding-bottom: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: chartreuse;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+article img {
+    width: 100%;
+}
+
+p {
+    margin-top: 30px;
+    color: chartreuse;
+}
+
+.col {
+    float: right;
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(5, 44, 45);
+    padding: 28px 0;
+}
+
+
+small {
+    float: left;
+    color: chartreuse;
+    text-transform: uppercase;
+}
+
+nav {
+  float: right;
+  vertical-align: middle;
+}
+
+footer a {
+    color: chartreuse;
+    margin-left: 84px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
