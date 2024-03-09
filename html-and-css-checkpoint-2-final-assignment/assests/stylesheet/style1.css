@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:  "Open Sans", sans-serif;
+}
+
+.flex {
+	display: flex;
+}
+
+.g-coloumn{
+    flex-direction: column;
+}
+
+/* header */
+.sidebar{
+    width: 30%;
+    background-color: #EA523E;
+    height: 100vh;
+    padding: 2%;
+    position: fixed;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+    margin-bottom: 2rem;
+}
+
+.g-header{
+    justify-content: space-between;
+    margin-bottom: 50vh;
+}
+.g-header figure{
+    height: 50px;
+    width: 50px;
+}
+.g-header img{
+    width: 100%;
+    height: 100%;
+}
+.g-brand-name{
+    font-size: 34px;
+    font-weight: bold;
+    align-self: center;
+    color: white;
+}
+.home{
+    background-color: #EA523E;
+    border: 2px solid white;
+    padding: 0 5%;
+    height: 2rem;
+    margin: auto 0;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+.sidebar p{
+    color: black;
+	line-height: 1;
+}
+.g-social{
+    color: white;
+}
+.g-social a{
+    text-decoration: none;
+    color: white;
+}
+.g-social .circle{
+  text-align: center;
+  background-color: #EA523E;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+/* gallery*/
+
+.g-main{
+    margin-left: 30%;
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+}
+.g-main h2{
+    margin: 0 0 4% 0;
+	font-size: 40px;
+	font-weight: 700;
+
+}
+.g-border{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.collage{
+    justify-content: space-between;
+}
+.g-main figure{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+.g-main img{
+    width: 100%;
+    height: 100%;
+}
+.g-coloumn-1{
+    flex-direction: column;
+    width: 49%;
+}
